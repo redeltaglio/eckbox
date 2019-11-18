@@ -1,0 +1,13 @@
+.TH ECKBOX 1 "7 March 2004"
+.SH NAME
+eckbox - an open source van Eck phreaker
+.SH SYNOPSIS
+eckbox [width height]
+.SH DESCRIPTION
+Eckbox is a van Eck phreaking program.  Combined with the proper hardware, it can be used to remotely shoulder-surf a target monitor.  The optional arguments are for the width and height of the target monitor, defaulting to 1024 and 768 respectively.
+.SH FILES
+.TP
+/etc/eckbox.conf
+The timings of pixel delays, in CPU cycles.
+.SH "SEE ALSO"
+http://www.eckbox.sourceforge.net -- SourceForge project home page
